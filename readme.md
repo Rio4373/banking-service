@@ -9,7 +9,7 @@ Banking Service — это RESTful API для управления банков�
 1. Убедитесь, что у вас установлен Docker и Docker Compose.
 2. Склонируйте репозиторий проекта:
    ```bash
-   git clone <URL_репозитория>
+   git clone https://github.com/Rio4373/banking-service.git
    cd banking-service
    ```
 3. Запустите сервис с помощью Docker Compose:
@@ -48,14 +48,14 @@ POST /cards — создание новой карты.
 GET /cards — получение всех карт пользователя.
 
 ## Структура проекта
-config/ — конфигурация приложения.
-handlers/ — обработчики HTTP-запросов.
-middleware/ — middleware для обработки запросов.
-models/ — модели данных.
-repositories/ — работа с базой данных.
-services/ — бизнес-логика приложения.
-scheduler/ — планировщик задач.
-migrations/ — SQL-скрипты для инициализации базы данных.
+- config/ — конфигурация приложения.
+- handlers/ — обработчики HTTP-запросов.
+- middleware/ — middleware для обработки запросов.
+- models/ — модели данных.
+- repositories/ — работа с базой данных.
+- services/ — бизнес-логика приложения.
+- scheduler/ — планировщик задач.
+- migrations/ — SQL-скрипты для инициализации базы данных.
 
 Примечания
 Для работы с API требуется JWT-токен, который передается в заголовке Authorization в формате Bearer <token>.
