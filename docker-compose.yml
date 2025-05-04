@@ -19,7 +19,7 @@ services:
     restart: always
 
   db:
-    image: postgres:14
+    image: postgres:17
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: yourpassword
